@@ -6,6 +6,7 @@
 5) Erneut unten links blaue button öffnen
 6) Weiterarbeiten im neuen lokalem Klone
 7) Leeren Ordner auswählen
-8) Bei Änderungen commit and push
+8) Git pull ausführen um Änderungen zu laden
+9) Bei Änderungen commit and push
 
 
