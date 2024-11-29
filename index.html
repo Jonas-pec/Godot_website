@@ -3,38 +3,38 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Startseite</title>
+    <title>introduction</title>
     <link rel="stylesheet" type="text/css" href="./resource/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         //Tab zur Einführungsseite//
         $(document).ready(function () {
-            $("#einfuerung").attr("class", "current");
-            $("#mainframe").attr("src", "./pages/einfuerung.html");
-            $("#einfuerung").click(function () {
-                $("#mainframe").attr("src", "./pages/einfuerung.html");
-                $("#einfuerung").attr("class", "current");
+            $("#introduction").attr("class", "current");
+            $("#mainframe").attr("src", "./pages/introduction.html");
+            $("#introduction").click(function () {
+                $("#mainframe").attr("src", "./pages/introduction.html");
+                $("#introduction").attr("class", "current");
             });
         });
         //Tab zur Grundlagenseite//
         $(document).ready(function () {
             $("#grundlagen").click(function () {
-                $("#mainframe").attr("src", "./pages/grundlagen.html");
-                $("#grundlagen").attr("class", "current");
-                $("#einfuerung").attr("class", "");
+                $("#mainframe").attr("src", "./pages/basic.html");
+                $("#basics").attr("class", "current");
+                $("#introduction").attr("class", "");
             });
         });
         //Tab zur Tags-Funktionenseite//
         $(document).ready(function () {
-            $("#tags-funktionen").click(function () {
-                $("#mainframe").attr("src", "./pages/tags-funktionen.html");
+            $("#tags-functions").click(function () {
+                $("#mainframe").attr("src", "./pages/tags-functions.html");
             });
         });
         //Tab zur Eigenes Spielseite//
         $(document).ready(function () {
-            $("#eigenesspiel").click(function () {
-                $("#mainframe").attr("src", "./pages/eigenesspiel.html");
+            $("#owngame").click(function () {
+                $("#mainframe").attr("src", "./pages/owngame.html");
             });
         });
     </script>
@@ -44,23 +44,18 @@
 
     <nav>
         <ul>
-            <li id="einfuerung" class="">Einführung</li>
-            <li id="grundlagen"><a>Grundlagen</a></li>
-            <li id="tags-funktionen"><a>Tags-Funktionen</a></li>
-            <li id="eigenesspiel"><a>Eigenes Spiel</a></li>
+            <li id="introduction" class="">Introduction</li>
+            <li id="basics"><a>Basics</a></li>
+            <li id="tags-functions"><a>Tags-Functions</a></li>
+            <li id="owngame"><a>Own game</a></li>
         </ul>
     </nav>
 
 
     <div class="mainpart">
-
         <iframe id="mainframe" src=""></iframe>
-
-
     </div>
     <div class="bookmarks">
-
-        <a href="#Was ist Godot">Was ist Godot</a>
 
 
     </div>

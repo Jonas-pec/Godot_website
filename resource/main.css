@@ -22,11 +22,11 @@ nav ul li {
     padding: 18px;
     margin: auto;
     color: #e0e0e0;
+    
 }
 .current {
     background-color: rgba(64, 83, 119, 1);
     padding: 22px;
-    color:red;
 }
 .current a{
     color:#e0e0e0;
@@ -63,11 +63,12 @@ nav ul li.current a:hover {
 
   .mainpart{
     position:fixed;
-    height: 800px;
+    height: 770px;
     width: 1300px;
     left: 290px;
     top:80px;
-    background-color: rgba(64, 83, 119, 1); 
+    border: rgba(64, 83, 119, 1) 15px solid;
+    background-color: rgba(39, 56, 89, 1);
   }
 
   #mainframe {
@@ -76,3 +77,5 @@ nav ul li.current a:hover {
     height: 100%;
     
   }
+
+
